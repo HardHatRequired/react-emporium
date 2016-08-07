@@ -24,7 +24,8 @@ module.exports = {
 		path: __dirname + '/dist'
 		, publicPath: '/'
 		, filename: 'bundle.js'
-	}
+	},
+	devtool : "source-map"
 	, devServer: {
 		contentBase: './dist'
 		, historyApiFallback: true
